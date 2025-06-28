@@ -341,7 +341,7 @@ def fetch_task_details_byId(taskId) :
     
     # Headers
     headers = {
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InNiVkFxWkNGdVJBPSJ9.eyJ1c2VyIjoyMTQ5MzU0LCJ2YWxpZGF0ZWQiOnRydWUsInNlc3Npb25fdG9rZW4iOnRydWUsIndzX2tleSI6NzIzODIzMzM1Mywid29ya3NwYWNlcyI6W3sidHlwZSI6InBhc3N3b3JkIn1dLCJpYXQiOjE3NTAxMjAzMTUsImV4cCI6MTc1MDI5MzExNX0.Owzg-zjuOlgqieJ0kKXqe8iJVQ9MqoxxBMAHLTRqIrE",
+        "Authorization": "Bearer <access token>",
         "sec-ch-ua-platform": "\"Windows\"",
         "X-load-event": "RouterEffects taskIdParamChanged",
         "Referer": "https://app.clickup.com/t/"+taskId,
