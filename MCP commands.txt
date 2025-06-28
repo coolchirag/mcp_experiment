@@ -1,0 +1,6 @@
+{"method":"tools/list","params":{},"jsonrpc":"2.0","id":16}
+
+{"method":"tools/call","params":{"name":"puppeteer_screenshot","arguments":{"height":1080,"name":"search_results","width":1920}},"jsonrpc":"2.0","id":189}
+
+
+{"method":"tools/call","params":{"name":"puppeteer_click","arguments":{"selector":"[data-symbol=\"IDFCFIRSTB.NS\"]"}},"jsonrpc":"2.0","id":190}
