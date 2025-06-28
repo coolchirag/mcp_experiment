@@ -729,7 +729,7 @@ def fetch_task_ids_by_sprintId(sprintId : str) :
     headers = {
     'accept': 'application/json, text/plain, */*',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-    'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InNiVkFxWkNGdVJBPSJ9.eyJ1c2VyIjoyMTQ5MzU0LCJ2YWxpZGF0ZWQiOnRydWUsIndzX2tleSI6NTc5NjA4NTA4OSwic2Vzc2lvbl90b2tlbiI6dHJ1ZSwid29ya3NwYWNlcyI6W3sidHlwZSI6InBhc3N3b3JkIn1dLCJpYXQiOjE3NTAzMTExODYsImV4cCI6MTc1MDQ4Mzk4Nn0.vDi4ppjucj4iHBxHA0TgC5EER8dmi5jk9fFVAEJRyyI',
+    'authorization': 'Bearer <access token>',
     'build-version': '3.83.0',
     'content-type': 'application/json',
     'origin': 'https://app.clickup.com',
@@ -782,7 +782,7 @@ def fetch_task_details_byId(taskId) :
     
     # Headers
     headers = {
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InNiVkFxWkNGdVJBPSJ9.eyJ1c2VyIjoyMTQ5MzU0LCJ2YWxpZGF0ZWQiOnRydWUsIndzX2tleSI6NTc5NjA4NTA4OSwic2Vzc2lvbl90b2tlbiI6dHJ1ZSwid29ya3NwYWNlcyI6W3sidHlwZSI6InBhc3N3b3JkIn1dLCJpYXQiOjE3NTAzMTExODYsImV4cCI6MTc1MDQ4Mzk4Nn0.vDi4ppjucj4iHBxHA0TgC5EER8dmi5jk9fFVAEJRyyI",
+        "Authorization": "Bearer <access token>",
         "sec-ch-ua-platform": "\"Windows\"",
         "X-load-event": "RouterEffects taskIdParamChanged",
         "Referer": "https://app.clickup.com/t/"+taskId,
