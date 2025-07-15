@@ -5,6 +5,7 @@ import { CallToolRequestSchema, ListResourcesRequestSchema, ListToolsRequestSche
 import puppeteer from "puppeteer";
 // Define the tools once to avoid repetition
 
+
 const TOOLS = [
     {
         name: "windows_os_command_executor",
