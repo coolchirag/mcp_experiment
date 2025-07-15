@@ -4,6 +4,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { CallToolRequestSchema, ListResourcesRequestSchema, ListToolsRequestSchema, ReadResourceRequestSchema, } from "@modelcontextprotocol/sdk/types.js";
 import puppeteer from "puppeteer";
 // Define the tools once to avoid repetition
+
 const TOOLS = [
     {
         name: "windows_os_command_executor",
